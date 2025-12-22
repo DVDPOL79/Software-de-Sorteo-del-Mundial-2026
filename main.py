@@ -41,4 +41,41 @@ equipos = [
 {"pais":"Suiza","confederacion":"UEFA"},
 {"pais":"España","confederacion":"UEFA"},
 {"pais":"Escocia","confederacion":"UEFA"}
+
 ]
+
+
+UEfa = 0
+CONmebol = 0
+CAF = 0
+AFC = 0
+OFC = 0
+CONCACAF = 0
+repechaje = 0
+
+for equipo in equipos:
+    if equipo["confederacion"] == "UEFA":
+        UEfa += 1
+    elif equipo["confederacion"] == "CONMEBOL":
+        CONmebol += 1
+    elif equipo["confederacion"] == "CAF":
+        CAF += 1
+    elif equipo["confederacion"] == "CONCACAF":
+        CONCACAF += 1
+    elif equipo["confederacion"] == "AFC":
+        AFC += 1
+    elif equipo["confederacion"] == "OFC":
+        OFC += 1
+    else:
+        repechaje += 1
+
+cantidad_equipos = [
+    {"confederacion":"UEFA","cantidad":UEfa},
+    {"confederacion":"CONMEBOL","cantidad":CONmebol},
+    {"confederacion":"CAF","cantidad":CAF},
+    {"confederacion":"AFC","cantidad":AFC},
+    {"confederacion":"OFC","cantidad":OFC},
+    {"confederacion":"CONCACAF","cantidad":CONCACAF},
+    {"confederacion":"Repechaje","cantidad":repechaje}
+]
+print(cantidad_equipos)
