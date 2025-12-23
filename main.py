@@ -41,8 +41,36 @@ equipos = [
 {"pais":"Suiza","confederacion":"UEFA"},
 {"pais":"España","confederacion":"UEFA"},
 {"pais":"Escocia","confederacion":"UEFA"}
-
 ]
+
+bombos = {
+    1: [
+        "Canadá", "México", "Estados Unidos",
+        "Argentina", "Brasil",
+        "Inglaterra", "Francia", "España",
+        "Portugal", "Alemania", "Países Bajos", "Bélgica"
+    ],
+    2: [
+        "Croacia", "Marruecos", "Colombia", "Uruguay",
+        "Suiza", "Japón", "Senegal", "Irán",
+        "Corea del Sur", "Ecuador", "Austria", "Australia"
+    ],
+    3: [
+        "Noruega", "Panamá", "Egipto", "Argelia",
+        "Escocia", "Paraguay", "Túnez", "Costa de Marfil",
+        "Uzbekistán", "Qatar", "Arabia Saudita", "Sudáfrica"
+    ],
+    4: [
+        "Jordania", "Cabo Verde", "Ghana",
+        "Curaçao", "Haití", "Nueva Zelanda"
+    ]
+}
+
+for equipo in equipos:
+    for bombo, paises in bombos.items():
+        if equipo["pais"] in paises:
+            equipo["bombo"] = bombo
+            break
 
 
 UEfa = 0
