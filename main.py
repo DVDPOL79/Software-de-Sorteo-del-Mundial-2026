@@ -1,3 +1,5 @@
+import string
+
 equipos = [
 {"pais":"Canadá","confederacion":"CONCACAF"},
 {"pais":"México","confederacion":"CONCACAF"},
@@ -114,3 +116,10 @@ for equipo in equipos:
     if confederacion not in confederaciones:
         confederaciones[confederacion] = []
     confederaciones[confederacion].append(equipo["pais"])
+
+grupos = {}
+
+for letra in string.ascii_uppercase[:12]:
+    grupos[letra] = []
+
+print(f"Grupos: {grupos}")
