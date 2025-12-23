@@ -78,4 +78,11 @@ cantidad_equipos = [
     {"confederacion":"CONCACAF","cantidad":CONCACAF},
     {"confederacion":"Repechaje","cantidad":repechaje}
 ]
-print(cantidad_equipos)
+
+confederaciones = {}
+
+for equipo in equipos:
+    confederacion = equipo["confederacion"]
+    if confederacion not in confederaciones:
+        confederaciones[confederacion] = []
+    confederaciones[confederacion].append(equipo["pais"])
