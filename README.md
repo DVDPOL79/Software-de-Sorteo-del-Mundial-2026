@@ -8,4 +8,4 @@ Este proyecto es una aplicación en **Python** diseñada para automatizar el sor
 - Algoritmo de prevención de "Deadlocks" (casos donde un equipo no tiene grupo válido).
 
 ## 📚 Aprendizaje
-Este repositorio documenta mi proceso de aprendizaje de Python desde cero.
+Este repositorio documenta mi proceso de aprendizaje de Python.
