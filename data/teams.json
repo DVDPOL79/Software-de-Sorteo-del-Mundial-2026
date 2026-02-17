@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Canadá",
+    "confederation": "CONCACAF",
+    "pot": 1
+  },
+  {
+    "name": "México",
+    "confederation": "CONCACAF",
+    "pot": 1
+  },
+  {
+    "name": "Argentina",
+    "confederation": "CONMEBOL",
+    "pot": 1
+  },
+  {
+    "name": "Brasil",
+    "confederation": "CONMEBOL",
+    "pot": 1
+  },
+  {
+    "name": "Japón",
+    "confederation": "AFC",
+    "pot": 2
+  },
+  {
+    "name": "Croacia",
+    "confederation": "UEFA",
+    "pot": 2
+  }
+]
