@@ -7,5 +7,3 @@ Este proyecto es una aplicación en **Python** diseñada para automatizar el sor
 - Restricciones continentales (máximo 1 equipo por confederación, excepto UEFA).
 - Algoritmo de prevención de "Deadlocks" (casos donde un equipo no tiene grupo válido).
 
-## 📚 Aprendizaje
-Este repositorio documenta mi proceso de aprendizaje de Python.
